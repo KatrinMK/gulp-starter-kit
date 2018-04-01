@@ -1,0 +1,15 @@
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+.article__box {
+    flex-basis: 80%;
+}
+.article__img {
+    align-self: start;
+}
+.article__title {
+    text-align: left;
+    margin-bottom: 16px;
+    color: $l-gray;
+}

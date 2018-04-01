@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid $light-g;
+}
+.footer__font {
+    text-transform: none;
+}
+.footer__span {
+    color: $pink;
+}
+.form__input {
+    height: 36px;
+    width: 230px;
+    font-size: 15px;
+    font-family: $text;
+    font-weight: lighter;
+    color: $light-g;
+    text-align: left;
+    border: 1px solid $light-g;
+    padding: 13px 0 13px 13px;
+    opacity: 0.3;
+    font-style: italic;
+}
+.form__subscribe {
+    height: 36px;
+    width: 150px;
+    background-color: $aqua;
+    @include title-white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: -5px;
+    border: 1px solid $aqua;
+}

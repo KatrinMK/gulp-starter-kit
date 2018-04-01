@@ -1,0 +1,12 @@
+@mixin title-white {
+    color: $white;
+font-family: $title;
+font-weight: bold;
+}
+@mixin title-grey {
+    font-family: $title;
+    color: $grey;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
