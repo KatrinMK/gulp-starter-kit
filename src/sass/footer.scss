@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-    border-top: 1px solid $light-g;
+    padding: rem(10) 0;
+    border-top: rem(1) solid $light-g;
 }
 .footer__font {
     text-transform: none;
@@ -12,26 +12,26 @@
     color: $pink;
 }
 .form__input {
-    height: 36px;
-    width: 230px;
-    font-size: 15px;
+    height: rem(36);
+    width: rem(230);
+    font-size: rem(15);
     font-family: $text;
     font-weight: lighter;
     color: $light-g;
     text-align: left;
-    border: 1px solid $light-g;
-    padding: 13px 0 13px 13px;
+    border: rem(1) solid $light-g;
+    padding: rem(13) 0 rem(13) rem(13);
     opacity: 0.3;
     font-style: italic;
 }
 .form__subscribe {
-    height: 36px;
-    width: 150px;
+    height: rem(36);
+    width: rem(150);
     background-color: $aqua;
     @include title-white;
-    font-size: 15px;
+    font-size: rem(15);
     text-transform: uppercase;
     text-align: center;
-    margin-left: -5px;
-    border: 1px solid $aqua;
+    margin-left: rem(-5);
+    border: rem(1) solid $aqua;
 }

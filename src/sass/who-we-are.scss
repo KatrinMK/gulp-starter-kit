@@ -1,10 +1,10 @@
-.who-we-are__text {
+.who-we-are--text {
     text-align: center;
-    width: 980px;
+    width: rem(980);
     margin: auto;
 }
 .who-we-are__team {
     display: flex;
     justify-content: space-between;
-    margin: 85px 0;
+    margin: rem(85) 0;
 }

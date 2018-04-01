@@ -1,0 +1,11 @@
+.button {
+    display: block;
+    font-size: rem(14);
+    @include title-white;
+    text-align: center;
+    text-transform: uppercase;
+    border: solid rem(3) $white;
+    background-color:rgba(0, 0, 0, -1.5);
+    margin: 0 auto;
+    padding: rem(10) rem(28);
+}

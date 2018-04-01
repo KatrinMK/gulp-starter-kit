@@ -12,10 +12,10 @@
         display: block;
     }
     &:hover {
-        transform: translate(-10px, -10px);
+        transform: translate(rem(-10), rem(-10));
         transition-duration: 200ms;
         transition-timing-function: linear;
-        box-shadow: 10px 10px $aqua;
+        box-shadow: rem(10) rem(10) $aqua;
     }
 }
 .team__medium {
@@ -26,47 +26,43 @@
     transform: translate(-50%, -50%);
 }
 .team__icons-container {
-    width: 380px;
-    height: 470px;
+    width: rem(380);
+    height: rem(470);
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(180deg, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%);
 }
 .team__box-icon {
-    width: 56px;
-    height: 56px;
+    width: rem(56);
+    height: rem(56);
+    fill: $pink;
     background-color: $yellow;
     text-align: center;
-    padding: 14px 0 15px;
-    margin-right: 1px;
+    padding: rem(14) 0 rem(15);
+    margin-right: rem(1);
     &:last-child {
         margin-right: 0;
     }
     &:hover {
+        fill: $white;
         background-color: $pink;
         transition-duration: 200ms;
         transition-timing-function: linear;
     }
-    &:hover .team__svg {
-        fill: $white;
-    }
-}
-.team__svg {
-    fill: $pink;
 }
 .team__figcaption {
-    margin-top: 30px;
+    margin-top: rem(30);
 }
 .team__caption {
-    margin-bottom: 11px;
+    margin-bottom: rem(11);
 }
 .team__profession {
-    font-size: 15px;
+    font-size: rem(15);
     font-family: $text;
     color: $l-gray;
     font-weight: lighter;
     font-style: italic;
-    line-height: 24px;
+    line-height: rem(24);
     text-align: center;
 }

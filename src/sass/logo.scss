@@ -1,0 +1,9 @@
+.logo--mogo {
+    font-size: rem(30);
+    @include title-white;
+    line-height: rem(36);
+    text-transform: capitalize;
+}
+.logo--g {
+    text-transform: uppercase;
+}

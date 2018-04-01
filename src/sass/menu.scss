@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__item {
+    text-align: center;
+    &:hover {
+        content: "";
+        color: $yellow;
+        padding-bottom: rem(12);
+        border-bottom: rem(3) solid $yellow;
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+    }
+    &:hover:nth-child(n+6) {
+        border-bottom: none;
+    }
+    &:hover .menu__link {
+        color: $yellow;
+    }
+}
+.menu__link {
+    color: $white;
+    font-size: rem(14);
+    font-family: $title;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: rem(14);
+}

@@ -10,3 +10,9 @@ font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
+@function rem($px){
+  
+    $result: $px/16;
+
+    @return #{$result}rem;
+  }
